@@ -33,6 +33,9 @@ main{
     background-color: rgb(95, 95, 95);
     margin-top: 10px;
     display: flex;
+
+    box-sizing: content-box;
+    width: 100%;    /*alinhar a borda de fora*/
 }
 section{
     background-color: rgb(95, 95, 95);
@@ -70,7 +73,6 @@ aside{
 }
 aside img{
     width: 310px;
-    border: 1px solid black;
     border-radius: 10px;
 }
 aside h1, p{
