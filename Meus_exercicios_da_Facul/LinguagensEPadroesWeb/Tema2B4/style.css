@@ -1,0 +1,48 @@
+@charset "UTF-8"; /*é uma regra, bom para pontuação*/
+
+*{
+    margin: 0%; padding: 0%;
+}
+
+body{
+    background-color: rgb(95, 95, 95);
+}
+
+header{
+    background-color: white;
+    text-align: center;
+    padding: 40px; margin: 0px 30px 10px;
+}
+nav{
+    background-color: black;
+    padding: 10px; margin: 0px 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 2s;
+}
+a:hover{
+    background-color: white;
+    color: black;
+}
+
+main{
+    background-color: rgb(95, 95, 95);
+    margin: 10px 10px;
+    display: flex;
+}
+
+article{
+    background-color: white;
+    padding: 10px;
+
+}
+#art1{
+    margin: 0px 20px;
+}
+#art1 img{
+     width: 800px;
+}
