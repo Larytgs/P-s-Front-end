@@ -1,0 +1,73 @@
+@charset "UTF-8"; /*é uma regra, bom para pontuação*/
+
+*{
+    margin: 0%; padding: 0%;
+}
+
+body{
+    background-color: rgba(127, 255, 212, 0.685);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.cabecalho{
+    height: 40px;
+    padding: 30px;
+    text-align: center;
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.menu{
+    background-color: blue;
+    overflow: hidden;
+}
+.menu ul{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.menu ul, li{
+    padding: 0;
+    margin: 0;
+}
+.menu li, a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu a{
+    padding: 15px 30px;
+}
+.menu a:hover{
+    background-color: white;
+    color: black;
+}
+
+.row{
+    padding: 10px;
+}
+.row::after{ /*limpesa da formatação*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#secao1{
+    float: left;
+    width: 70%;
+    background-color: yellow;
+    margin: 10px; padding: 5px;
+}
+
+#secao2{
+    float: left;
+    width: 25%;
+    background-color: yellow;
+    margin: 10px; padding: 5px;
+}
+
+.rodape{
+    padding: 30px;
+    background-color: blue;
+    text-align: center;
+    margin-top: 20px;
+}
