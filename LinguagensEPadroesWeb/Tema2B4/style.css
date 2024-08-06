@@ -33,8 +33,6 @@ main{
     background-color: rgb(95, 95, 95);
     margin-top: 10px;
     display: flex;
-    min-width: 300px;
-    max-width: 1000px;
 
     box-sizing: content-box;
     width: 100%;    /*alinhar a borda de fora*/
@@ -113,6 +111,7 @@ footer{
         margin: 0%;
     }
     #contato article{
+        width: 350px;
     }
     #contato img{
         width: 300px;
@@ -123,6 +122,7 @@ footer{
     article{
         margin: 0%;
         margin-bottom: 20px;
+        width: 350px;
     }
     article h2{
         font-size: 1.2em;
@@ -139,8 +139,8 @@ footer{
 
     aside{
         margin: 0%;
-        width: 300px;
         padding: 10px 15px;
+        width: 350px;
     }
     aside img{
         width: 300px;
