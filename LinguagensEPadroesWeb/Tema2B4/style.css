@@ -109,6 +109,14 @@ footer{
     main{
         display: block;
     }
+    #contato article{
+        width: 360px;
+    }
+    #contato img{
+        width: 300px;
+        margin-left: 0%;
+        border-radius: 10px;
+    }
 
     article{
         width: 300px;
