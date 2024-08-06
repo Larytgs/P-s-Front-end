@@ -83,6 +83,7 @@ body{
 
     .menu{
         padding: 1px;
+        margin-top: 5px;
     }
     .menu li a{
         font-size: 0.9em;
