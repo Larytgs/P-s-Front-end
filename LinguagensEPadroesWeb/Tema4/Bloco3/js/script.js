@@ -26,7 +26,7 @@ function rendenizarTarefas(){
 rendenizarTarefas()
 
 
-function cadastro(){ /*coloquei a função direta*/
+btn.onclick = function(){ /*coloquei a função direta*/
     
     let novaTarefa = input.value; /*pega o valor do input, joga para uma variavel local, para verificar */
 
