@@ -78,7 +78,7 @@ body, html{
     .menu{
         padding: 1px;
     }
-    .menu li{
+    .menu li a{
         font-size: 1em;
     }
 
