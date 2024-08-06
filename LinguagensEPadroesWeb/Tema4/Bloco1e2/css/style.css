@@ -98,4 +98,14 @@ body{
     #secao2{
         width: 65%;
     }
+
+    .rodape{
+        padding: 5px;
+        position: fixed;
+        bottom: 0%;
+    }
+    .rodape h3{
+        font-size: 1em; 
+        padding-top: 5px;
+    }
 }
