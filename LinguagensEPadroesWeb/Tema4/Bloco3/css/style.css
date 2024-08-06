@@ -45,10 +45,13 @@ body, html{
 }
 
 .row{
-    background-color: aliceblue;
-    margin: auto;
-    padding: 30px 20px 10px;
     text-align: center;
+    background-color: aliceblue;
+    padding: 10px;
+    margin-top: 4%;
+}
+.card{
+    padding: 10px;
 }
 
 
@@ -61,4 +64,32 @@ body, html{
     background-color: #007BFF;
     text-align: center;
     width: 100%;
+}
+
+@media all and (min-width: 320px ) and (max-width: 529px) { /*para celular*/
+
+    .cabecalho h1{
+        font-size: 2em;
+    }
+    .cabecalho h4{
+        font-size: 1.2em;
+    }
+
+    .row{
+        margin-top: 10%;
+    }
+    .row h1{
+        font-size: 2em;
+    }
+
+    .rodape{
+        padding: 0%;
+        padding: 5px;
+        margin-top: 0%;
+        position: fixed;
+        bottom: 0%;
+    }
+    .rodape h3{
+        font-size: 1em;
+    }
 }
