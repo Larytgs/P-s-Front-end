@@ -110,6 +110,7 @@ footer{
 
     main{
         display: block;
+        margin: 0%;
     }
     #contato article{
         width: 360px;
