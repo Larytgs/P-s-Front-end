@@ -1,4 +1,8 @@
-
+<style>
+    body{
+        background-color: #007BFF;
+    }
+</style>
 
 # Exercicios Front-end
 
