@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Bootstrap</title>
 </head>
@@ -21,18 +21,23 @@
         </ul>
     </nav>
 
-    <section class="row">
-        <article id="secao1">
-            <h2>Subtítlo (Seção1)</h2>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum, velit? Minus quae veritatis ipsum libero ipsam, molestias enim eaque eos! Ipsam quibusdam nesciunt iure magni! Illo dolorem dolores facilis aspernatur!</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta in numquam, iusto porro eaque ipsam ullam nisi vel nemo, odit eius facilis deleniti sapiente explicabo esse ut possimus nihil alias.</p>
-        </article>
-        <article id="secao2">
-            <h2>Subtítlo (Seção2)</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta in numquam, iusto porro eaque ipsam ullam nisi vel nemo, odit eius facilis deleniti sapiente explicabo esse ut possimus nihil alias.</p>
-        </article>
-    </section>
+    <div class="row">
+        <div class="container">
+            <div class="card">
+                <h1 class="card-header">Lista de Tarefas</h1>
+                <div class="input-group mb-3">
+                    <input type="text" name="tarefa" class="form-control" placeholder="Digite a tarefa" autofocus>
+                    <div onclick="cadastro()" class="input-group-append">
+                        <button class="btn btn-primary" type="button" id="button">Cadastrar</button> <!--btn-primary: a cor azul aplicada pel bootstrap-->
+                    </div>
+                </div>
+                <ul id="lista" class="list-group"></ul>
+            </div>
+        </div>
+    </div>
 
+    <script src="js/script.js"></script>
+    
     <footer class="rodape">
         <h3>Rodapé da Página.</h3>
     </footer>

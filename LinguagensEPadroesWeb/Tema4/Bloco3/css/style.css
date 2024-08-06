@@ -1,0 +1,64 @@
+@charset "UTF-8"; /*é uma regra, bom para pontuação*/
+
+*{
+    margin: 0%; padding: 0%;
+}
+
+body, html{
+    overflow: hidden;
+}
+
+.cabecalho{
+    padding: 20px;
+    text-align: center;
+    background-color: #007BFF;
+    width: 100%;
+    overflow: hidden;
+}
+
+.menu{
+    background-color: rgba(128, 128, 128, 0.158);
+    padding: 10px;
+    text-align: left;
+    width: 100%;
+    overflow: hidden;
+}
+.menu ul{
+    margin-right: 10%;
+    margin-left: 10%;
+}
+.menu ul, li{
+    padding: 0;
+    margin: 0;
+}
+.menu li, a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu a{
+    padding: 15px 30px;
+}
+.menu a:hover{
+    background-color: grey;
+    color: black;
+}
+
+.row{
+    background-color: aliceblue;
+    margin: auto;
+    padding: 30px 20px 10px;
+    text-align: center;
+}
+
+
+.rodape{
+    padding: 20px;
+    margin-top: 20px;
+    position: fixed;
+    bottom: 0%;
+
+    background-color: #007BFF;
+    text-align: center;
+    width: 100%;
+}
