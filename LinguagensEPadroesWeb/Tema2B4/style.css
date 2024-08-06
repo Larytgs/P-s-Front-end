@@ -33,6 +33,8 @@ main{
     background-color: rgb(95, 95, 95);
     margin-top: 10px;
     display: flex;
+    min-width: 300px;
+    max-width: 1000px;
 
     box-sizing: content-box;
     width: 100%;    /*alinhar a borda de fora*/
