@@ -31,19 +31,19 @@ function cadastro(){ /*coloquei a função direta*/
     let novaTarefa = input.value; /*pega o valor do input, joga para uma variavel local, para verificar */
 
     if(novaTarefa !== ""){ /*caso nao esteja vazio*/
-        tarefas.push(novaTarefa)/*vai insirir tds as tarefas*/
+        tarefas.push(novaTarefa)/*vai inserir tds as tarefas*/
         rendenizarTarefas() /*função para mostrar as tarefas*/
-        input.value = '';
+        input.value = ''
         removerSpans() /*função p remover os espaços*/
-        salvarDadosNoStorage() /*função p salvar os dados*/
+        salvarDadosNoStorage() /*função p salvar os dados*/ 
     }else{ /*se tiver tarefas*/
         removerSpans()
         let span = document.createElement('span')
-        span.setAttribute('class', 'alert alert-warning')/*alerta do bootStrap*/
+        span.setAttribute('class', 'alert alert-warning') /*alerta do bootStrap*/
         let msg = document.createTextNode('Voce precisa digitar a terafa que deseja registrar!')
         /*caso o usuario nao digitarnenhuma tarefa, vai mostrar a mensagem de alerta*/
-        span.appendChild(msg)/*vai insirir a msg dentro do span*/
-        card.appendChild(span)/*dps vai insiri o span dentro do card*/
+        span.appendChild(msg) /*vai inserir a msg dentro do span*/
+        card.appendChild(span) /*dps vai inserir o span dentro do card*/
     }
 }
 
