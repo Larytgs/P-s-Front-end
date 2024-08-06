@@ -2,6 +2,16 @@
     body{
         background-color: #007bff3f;
         color: black;
+        font-size:10vw;
+    }
+
+    ul{
+        columns: 2; 
+        border: 3px dotted black; 
+        margin: 10px;
+        background-color: #7fffd47a;
+        padding: 10px;
+        list-style-position: inside;
     }
 </style>
 
