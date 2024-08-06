@@ -81,6 +81,9 @@ body, html{
     .menu li a{
         font-size: 0.9em;
     }
+    .menu a{
+        padding: 15px 10px;
+    }
     .menu ul{
         margin-right: 0%;
         margin-left: 0%;
