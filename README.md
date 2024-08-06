@@ -18,7 +18,7 @@
 ## Nesse Repositório vou adicionar com o tempo meus exercicios feito através da minha Pós Graduação de Front-end.
 
 ### Dos exercicios básicos ao avançado. 
-### Apenas vendo no media screen.
+### Os primeiros apenas vendo no media screen.
 
 * <a href="LinguagensEPadroesWeb/Tema1e2/index.html" target="_blank">Tema 1 e 2 - Lista/Formulário/Tabela/CSS</a>
 * <a href="LinguagensEPadroesWeb/Tema2B4/destista.html" target="_blank">Tema 2 Bloco 4 - WebSite com CSS(consultório)</a>
