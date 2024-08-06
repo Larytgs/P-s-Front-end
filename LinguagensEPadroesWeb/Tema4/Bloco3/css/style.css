@@ -75,6 +75,13 @@ body, html{
         font-size: 1.2em;
     }
 
+    .menu{
+        padding: 1px;
+    }
+    .menu li{
+        font-size: 1em;
+    }
+
     .row{
         margin-top: 10%;
     }
