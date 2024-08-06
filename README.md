@@ -1,6 +1,6 @@
 <style>
     body{
-        background-color: #007bff3f;
+        background-color: #007bff1a;
         color: black;
         font-size:10vw;
     }
