@@ -5,7 +5,7 @@
 }
 
 body, html{
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 .cabecalho{
@@ -48,15 +48,23 @@ body, html{
     text-align: center;
     background-color: aliceblue;
     padding: 10px;
-    margin-top: 4%;
+    margin-bottom: 10px;
+    z-index: 999;
+}
+.container{
+    margin: 10px;
 }
 .card{
     padding: 10px;
+    margin-bottom: 5%;
 }
 
+#lista{
+    padding: 10px;
+}
 
 .rodape{
-    padding: 20px;
+    padding: 10px;
     margin-top: 20px;
     position: fixed;
     bottom: 0%;

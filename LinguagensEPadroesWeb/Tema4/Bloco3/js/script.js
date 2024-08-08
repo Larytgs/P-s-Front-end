@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 deletarTarefa(this)
             }
             /*a partir que eu excluir um item da lista, ele vaideslocar todo os valores q eu tinha armazenado p um nivel anterior, para nao ficar nenhum "buraco" no registro que eu removi*/
-            let itemTexto = document.createElement(tarefa)
+            let itemTexto = document.createTextNode(tarefa)
             itemLista.appendChild(itemTexto) /*insirir um texto na minha lista*/
             lista.appendChild(itemLista)
         }
