@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', function() {
             removerSpans()
             let span = document.createElement('span')
             span.setAttribute('class', 'alert alert-warning') /*alerta do bootStrap*/
-            let msg = document.createTextNode('Voce precisa digitar a terafa que deseja registrar!')
+            let msg = document.createTextNode('Voce precisa digitar a tarefa que deseja registrar!')
             /*caso o usuario nao digitarnenhuma tarefa, vai mostrar a mensagem de alerta*/
             span.appendChild(msg) /*vai inserir a msg dentro do span*/
             card.appendChild(span) /*dps vai inserir o span dentro do card*/

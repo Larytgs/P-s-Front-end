@@ -44,6 +44,7 @@ body{
 
 .row{
     padding: 10px;
+    margin-bottom: 8%;
 }
 .row::after{ /*limpesa da formatação*/
     content: "";
@@ -66,7 +67,7 @@ body{
 }
 
 .rodape{
-    padding: 30px;
+    padding: 10px;
     background-color: blue;
     text-align: center;
     position: fixed;
